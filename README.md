@@ -10,7 +10,7 @@ MakeFixed.js is a quick way to dynamically set up elements to be fixed during sc
 
 ---
 
-[View the demo](https://guimadaleno.github.io/demos/makefixed.js)
+[View the demo](https://guimadaleno.github.io/demos/makefixed.js/demo.html)
 
 ---
 
