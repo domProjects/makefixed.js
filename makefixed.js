@@ -106,7 +106,7 @@ $.fn.makeFixed = function (options)
 					position:   'fixed',
 					left:       el.attr(attr.fLeft),
 					top:        (el.attr(attr.fTopPos)) ? el.attr(attr.fTopPos) + 'px' : defOpts.defTopPos,
-					width:      el.attr(attr.fWidth),
+					width:      el.attr(attr.fWidth)+el.attr(attr.fLeft),
 					zIndex:     defOpts.defZIndex
 				});
 
