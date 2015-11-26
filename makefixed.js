@@ -96,7 +96,7 @@ $.fn.makeFixed = function (options)
 
 			/* Set element as fixed */
 
-			if (el.attr(attr.fAtPos) <= scrolled)
+			if (el.attr(attr.fAtPos) <= scrolled && scrolled > 0)
 			{
 
 				el.attr(attr.cIsFixed, 1);
